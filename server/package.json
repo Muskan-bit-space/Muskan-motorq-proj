@@ -1,0 +1,21 @@
+{
+  "name": "telematics-alert-engine-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fresher-friendly MERN MVP backend for a telematics alert rule engine",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
