@@ -1,4 +1,4 @@
-# Telematics Alert Rule Engine
+# FleetPulse
 
 I built the MVP with MERN. Every telemetry ping is stored first. I then fetch only active rules applicable to that vehicle. Simple rules are evaluated on the current payload. Windowed rules query only the required recent time window instead of loading the vehicle's entire history. When a rule matches, I create an alert and use a cooldown to avoid alert spam. Alerts have a basic lifecycle: open, acknowledged, resolved and suppressed.
 
